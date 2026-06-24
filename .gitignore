@@ -1,0 +1,85 @@
+# ===== LaTeX 编译生成的临时文件 =====
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+.*.lb
+
+# LaTeX 索引和术语表
+*.idx
+*.ilg
+*.ind
+
+# LaTeX 参考文献
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+
+# LaTeX 其他辅助文件
+*.dvi
+*.ps
+*.synctex.gz
+*.synctex.gz(busy)
+*.pdfsync
+*.xdv
+*.fdb_latexmk
+*.synctex(busy)
+*.thm
+*.spl
+*.soc
+
+# LaTeX Beamer
+*.nav
+*.snm
+*.vrb
+
+# 字体缺失日志
+missfont.log
+
+# ===== 备份/临时文件 =====
+*~
+*.bak
+*.swp
+*.swo
+*.backup
+*.tmp
+
+# ===== 系统文件 =====
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.directory
+
+# ===== 编辑器 =====
+.vscode/
+*.code-workspace
+\#*\#
+.\#*
+*.elc
+auto-save-list
+.idea/
+*.iml
+
+# ===== 压缩文件 =====
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# ===== 编译输出目录 =====
+out/
+build/
+dist/
